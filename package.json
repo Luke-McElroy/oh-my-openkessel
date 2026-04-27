@@ -1,0 +1,31 @@
+{
+  "name": "opencode-ralph",
+  "version": "1.0.0",
+  "description": "Multi-agent coding orchestration plugin for OpenCode",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "opencode",
+    "plugin",
+    "multi-agent",
+    "orchestration",
+    "ralph"
+  ],
+  "peerDependencies": {
+    "@opencode-ai/plugin": "^2.0.0",
+    "@opencode-ai/sdk": "^2.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.39",
+    "typescript": "^5.9.3"
+  }
+}

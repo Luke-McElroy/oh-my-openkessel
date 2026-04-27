@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/agents/build.ts","./src/agents/document.ts","./src/agents/index.ts","./src/agents/leader.ts","./src/agents/plan.ts","./src/agents/reviewer.ts","./src/agents/test.ts","./src/stubs/opencode.d.ts","./src/types/index.ts","./src/utils/files.ts"],"version":"5.9.3"}
